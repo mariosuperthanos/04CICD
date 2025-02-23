@@ -20,7 +20,7 @@
   ],
   "settings": {
     "react": {
-      "version": "detect" // Automatically picks the version you have installed
+      "version": "detect"
     }
   },
   "rules": {
@@ -30,6 +30,6 @@
     "quotes": "off",
     "comma-dangle": "off",
     "indent": "off",
-    "react/react-in-jsx-scope": "off" // Optional, for React 17+
+    "react/react-in-jsx-scope": "off"
   }
 }
