@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically picks the version you have installed
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "semi": "off",
+    "quotes": "off",
+    "comma-dangle": "off",
+    "indent": "off",
+    "react/react-in-jsx-scope": "off" // Optional, for React 17+
+  }
+}
