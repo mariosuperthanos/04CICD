@@ -1,5 +1,7 @@
 import MainContent from './components/MainContent';
+// @ts-ignore
 import logo from './assets/images/logo.png';
+import React from 'react';
 
 function App() {
   return (
